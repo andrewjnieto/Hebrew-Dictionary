@@ -12,6 +12,7 @@ body {
 
 #search-container h1 {
 	text-align: center;
+	font-size: 3rem;
 }
 
 input {
@@ -27,4 +28,30 @@ button {
 #search-form label {
 	font-size: 25px;
 	margin-bottom: 0px;
+}
+
+#results-header {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 2.2em;
+	margin-bottom: 2.5vh;
+}
+
+.definition {
+	padding-top: 1.5vh;
+}
+.definition h3 {
+	font-size: 2.25rem;
+}
+
+.definition li {
+	font-size: 1.3em; 
+}
+
+.definition:after {
+	content: "";
+    display: block;
+    width: 15%;
+    padding-bottom: 1.5vh;
+    border-bottom: 3px solid grey;
 }
