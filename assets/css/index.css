@@ -55,3 +55,7 @@ button {
     padding-bottom: 1.5vh;
     border-bottom: 3px solid grey;
 }
+
+.definition:last-of-type:after {
+    border-bottom: 0px solid grey;
+}

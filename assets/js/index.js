@@ -47,8 +47,8 @@ function formatHeader(index, def) {
 }
 
 function formatDetails(def) {
-	return `<small>Strong's Def: ${def.strongs_def}</small> -- ` +
-		   `<small>King James Def: ${def.kjv_def}</small>`;
+	return `<small><strong>Strong's Definition</strong>: ${def.strongs_def}</small><br>` +
+		   `<small><strong>King James Definition</strong>: ${def.kjv_def}</small>`;
 }
 
 function formatAllDefs(all_defs) {
