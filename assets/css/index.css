@@ -34,7 +34,6 @@ button {
 	text-align: center;
 	text-decoration: underline;
 	font-size: 2.2em;
-	margin-bottom: 2.5vh;
 }
 
 .definition {
@@ -58,4 +57,17 @@ button {
 
 .definition:last-of-type:after {
     border-bottom: 0px solid grey;
+}
+
+@media only screen and (max-width: 600px) {
+	.definition:after {
+		content: "";
+	    display: block;
+	    width: 15%;
+    	margin-left: auto;
+    	margin-right: auto;
+	    padding-bottom: 1.5vh;
+	    border-bottom: 3px solid grey;
+	}
+
 }
