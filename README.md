@@ -1,4 +1,4 @@
-# Hebrew-Dictionary
+# א Hebrew Dictionary ש
 
 ## andrewjnieto.com/hebrew
 
