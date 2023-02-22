@@ -1,6 +1,6 @@
 # Hebrew Dictionary
 
-**[andrewjnieto.com/hebrew](andrewjnieto.com/hebrew)
+**[andrewjnieto.com/hebrew](andrewjnieto.com/hebrew)**
 
 Repository for open source compilation of a variety of biblical hebrew resources for a complete dictionary of biblical hebrew words and their occurence within the Tanakh building upon the work of Strong's Concordance, open source definitions, and mappings.
 
