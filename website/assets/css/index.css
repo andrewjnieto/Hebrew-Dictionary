@@ -1,0 +1,117 @@
+body {
+	font-family: adobe-garamond-pro,serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#search-container {
+	padding-top: 25vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search-container h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+input {
+	width: 100%;
+}
+
+button {
+	width: 200px;
+	height: 35px;
+	font-size: 510px;
+}
+
+#search-form label {
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+#results-header {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 2.2em;
+}
+
+.definition {
+	padding-top: 1.5vh;
+}
+.definition h3 {
+	font-size: 2.25rem;
+}
+
+.def-item {
+	font-size: 1.3em; 
+}
+
+.definition:after {
+	content: "";
+    display: block;
+    width: 15%;
+    padding-bottom: 1.5vh;
+    border-bottom: 3px solid grey;
+}
+
+.definition:last-of-type:after {
+    width: 0;
+}
+
+.group-list {
+	display: block;
+}
+
+.additional-defs{
+	padding-left: 1rem;
+}
+
+.additional {
+	padding-left: 1rem;
+	text-indent: 1rem;
+	font-size: 0.95rem;
+}
+
+.add-defs-title {
+	margin-top: -0.5rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.variants-list {
+	font-size: 1.5rem;
+	padding-left: 1rem
+}
+
+.variants-list li {
+	font-size: 1.5rem;
+}
+
+.variants-list>summary {
+ 
+  list-style: none;
+}
+.variants-list>summary::-webkit-details-marker {
+  display: none
+}
+
+.variants-list>summary::after {
+  content: ' ►';
+}
+
+.variants-list[open] summary:after {
+  content: " ▼";
+}
+
+.variants-list-summary {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
