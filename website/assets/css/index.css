@@ -81,7 +81,9 @@ button {
 
 .variants-list {
 	font-size: 1.5rem;
-	padding-left: 1rem
+	padding-left: 1rem;
+	outline: 1px solid grey;
+	width: 25%;
 }
 
 .variants-list li {
@@ -89,7 +91,6 @@ button {
 }
 
 .variants-list>summary {
- 
   list-style: none;
 }
 .variants-list>summary::-webkit-details-marker {
